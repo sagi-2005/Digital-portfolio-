@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #84a6e9;
+        }
+
+        header {
+            background-color: #941919;
+            color: #fff;
+            text-align: center;
+            padding: 2rem 0;
+            position: relative; /* Add this */
+        }
+
+        .header-content h1 {
+            font-size: 2.5rem;
+        }
+
+        /* Add styles for the round profile picture */
+        .profile-picture {
+            width: 100px; /* Adjust the size as needed */
+            height: 100px;
+            border-radius: 75%; /* Create a circular shape */
+            object-fit: cover; /* To ensure the image fills the circular area */
+            position: absolute; /* Add this */
+            top: 75px; /* Adjust top position as needed */
+            left: 75px; /* Adjust left position as needed */
+        }
+
+        nav {
+            background-c
+    /* ... (rest of the CSS code remains the same) */
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>sagi srinithi v</h1>
+      <p>student</p>
+    </div>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#certification">Certification</a></a></li>
+      <li><a href="#resume">Resume</a></li>
+      
+    </ul>
+  </nav>
+  <section id="about">
+    <div class="section-content">
+      <h2>About Me</h2>
+      <p>Hello! I'm sagi srinithi, passionate data science student dedicted about transforming data into actionable insights. I have learned SQL, Python, and Tableau, with a proven track record of driving data-driven decision-making. strive to deliver high-quality projects that exceed expectations.</p>
+    </div>
+  </section>
+  <section id="experience">
+    <div class="section-content">
+      <h2>Experience</h2>
+      <p>madras University - Computer Science with data science (2023-2026)</p>
+      <p>Intern, accenture Company(2025) </p>
+    </div>
+  </section>
+  <section id="skills">
+    <div class="section-content">
+      <h2>Skills</h2>
+      <ul>
+        <li>Java coding</li>
+        <li>python coding</li>
+        <li>tableau</li>
+        <li>AI tools</li>
+        <li>BI tools</li>
+        <li>css</li>
+        <li>HTML</li>
+        <li>microsoft office</li>
+      </ul>
+    </div>
+  </section>
+  <section id="certification">
+    <div class="certification-content">
+      <h2>Certification</h2>
+      <ul>
+          <licompleted python course for data science in NPTEL </li>
+          <li>participated in national level online multi disciplinary poster and ppt on the topic "big data analytics tools"</li>
+  <section id="resume">
+    <div class="section-content">
+      <center>
+        <h2>Resume</h2>
+        <a href="https://in.docworkspace.com/d/sIEbzmNr0AbTJ674G?sa=601.1074" target="_blank" class="download-button">Download CV</a>
+      </center>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2025 sagi srinithi</p>
+  </footer>
+  <script>
+    // Smooth scrolling to section when clicking on navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
+        if (targetElement) {
+          window.scrollTo({ top: targetElement.offsetTop, behavior: 'smooth' });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
+```
